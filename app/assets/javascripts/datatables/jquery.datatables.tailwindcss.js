@@ -94,7 +94,7 @@ $.extend( true, DataTable.ext.classes, {
 	},
 } );
 
-DataTable.ext.renderer.pagingButton.tailwindcss = function (settings, buttonType, content, active, disabled) {
+DataTable.ext.renderer.pagingButton.tailwindcss = function (settings, content, active, disabled) {
 	var classes = settings.oClasses.paging;
 	var btnClasses = [classes.button];
 
